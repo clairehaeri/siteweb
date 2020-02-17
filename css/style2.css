@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Enriqueta&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	background-color:#54123b;
+	font-size: 15px;
+	margin: 5px;
+}
+
+h1{
+	color:#f5eaea
+}
+
+h2, h3{
+	font-family: 'Alice', serif;
+	font-size: 30px;
+	color:#f28e54;
+}
+
+
+a{
+	text-decoration: none; 
+	}
+p{
+	color:#f5eaea;
+	font-family: 'Enriqueta', serif;
+	font-size: 19px;
+	padding: 0% 0% 0% 0%;
+	text-align: justify;
+	letter-spacing: 3px;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
